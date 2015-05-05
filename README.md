@@ -43,13 +43,19 @@ gulp.task('htmlusemin', function() {
 #### options.js
 Type: `Object`
 Default value: `{
-                suffix: '-min',
+                suffix: '.min',
                 enable: true
             }`
 
-Whether to preserve the timestamp attributes(atime and mtime) when replaceing files. Set to true to preserve files timestamp. But timestamp will not be preserved when the file contents or name are changed during replaceing.
+#### options.css
+Type: `Object`
+Default value: `{
+                suffix: '.min',
+                enable: true
+            }`
 
-#### options.replacements
+
+#### options.js.suffix
 
 *replacements* is an array of *from* and *to* replacements. See the
 [examples](#usage) above.
