@@ -1,6 +1,6 @@
 {
   "name": "gulp-usemin-html",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "description": "Replace references from non-optimized scripts, stylesheets and other assets to their optimized version within a set of HTML files.",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -8,6 +8,13 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/Mr1024/gulp-usemin-html.git"
+  },
+  "dependencies": {
+    "through-gulp": "*"
+  },
+  "devDependencies": {
+    "gulp": "^3.8.10",
+    "through-gulp": "*"
   },
   "keywords": [
     "gulpplugin",
@@ -22,6 +29,9 @@
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/Mr1024/gulp-usemin-html/issues"
+  },
+  "engines": {
+    "node": ">=0.8"
   },
   "homepage": "https://github.com/Mr1024/gulp-usemin-html"
 }
