@@ -10,11 +10,12 @@
     "url": "https://github.com/Mr1024/gulp-usemin-html.git"
   },
   "dependencies": {
-    "through-gulp": "*"
+    "gulp": "~3.8.10",
+    "through-gulp": "^0.3.8"
   },
   "devDependencies": {
     "gulp": "^3.8.10",
-    "through-gulp": "*"
+    "through-gulp": "^0.3.8"
   },
   "keywords": [
     "gulpplugin",
