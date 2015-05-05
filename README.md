@@ -19,7 +19,7 @@ var htmlusemin = require('gulp-usemin-html')
 ## The "htmlusemin" task
 
 ### Overview
-In your project's Gulpfile, add a section `.
+In your project's Gulpfile, add a section.
 
 ```js
 gulp.task('htmlusemin', function() {
@@ -40,9 +40,12 @@ gulp.task('htmlusemin', function() {
 
 ### Options
 
-#### options.timestamp
-Type: `Boolean`
-Default value: `false`
+#### options.js
+Type: `Object`
+Default value: `{
+                suffix: '-min',
+                enable: true
+            }`
 
 Whether to preserve the timestamp attributes(atime and mtime) when replaceing files. Set to true to preserve files timestamp. But timestamp will not be preserved when the file contents or name are changed during replaceing.
 
